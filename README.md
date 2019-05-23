@@ -1,11 +1,12 @@
-# 大杂烩
-
 <!-- TOC -->
 
-- [大杂烩](#大杂烩)
-        - [Python](#python)
+- [Python](#python)
+- [Node](#node)
 
 <!-- /TOC -->
 
-### Python
+## Python
 - [Linux下部署Django环境](./python/Linux下部署Django环境.md)
+
+## Node
+- [搭建 Node.js 环境](./node/搭建Node.js环境.md)
