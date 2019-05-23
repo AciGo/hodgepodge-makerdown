@@ -1,7 +1,7 @@
 # 大杂烩
 
-## 目录
+### 目录
     * [Python](#Python)
-        * [Linux 下部署 Django 环境](#Linux 下部署 Django 环境)
-## Python
-- [Linux 下部署 Django 环境](./python/Linux 下部署 Django 环境.md)
+        * [Linux下部署Django环境](#Linux下部署Django环境)
+### Python
+- [Linux下部署Django环境](./python/Linux下部署Django环境.md)
