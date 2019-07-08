@@ -4,6 +4,7 @@
     - [更新操作系统](#更新操作系统)
     - [安装 EPEL 和 Webtatic 库](#安装-epel-和-webtatic-库)
     - [安装 MySQL](#安装-mysql)
+    - [MySQL补充](#mysql补充)
     - [安装 Apache](#安装-apache)
     - [安装 PHP](#安装-php)
     - [安装 Composer 并配置镜像加速](#安装-composer-并配置镜像加速)
@@ -44,6 +45,25 @@ systemctl enable mariadb.service
 ~~~
 mysql_secure_installation
 ~~~
+
+### MySQL补充
+查看mysql是否开启远程连接
+```
+show variables like '%skip_networking%';
++-----------------+-------+
+| Variable_name   | Value |
++-----------------+-------+
+| skip_networking | OFF   |
++-----------------+-------+
+1 row in set (0.01 sec)
+```
+若为on则表示没开通网络连接,只能本机访问.
+- [CentOS7常用环境设置](https://yq.aliyun.com/articles/175021#)
+- [部署LAMP](https://help.aliyun.com/document_detail/50774.html)
+- [阿里云服务器(centos7) 设置mysql账号密码开放3306端口实现远程登陆](https://www.jianshu.com/p/d0fac4648870)
+- [firewall-cmd](https://wangchujiang.com/linux-command/c/firewall-cmd.html)
+- [centos 7 firewall(防火墙)开放端口/删除端口/查看端口](https://blog.csdn.net/qq_36663951/article/details/82115086)
+- [linux(centos 7)中配置安装apache服务器!怎么绑定域名](http://idc.wanyunshuju.com/li/6.html#%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE)
 
 ### 安装 Apache
 
