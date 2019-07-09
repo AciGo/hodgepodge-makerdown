@@ -64,6 +64,12 @@ show variables like '%skip_networking%';
 - [firewall-cmd](https://wangchujiang.com/linux-command/c/firewall-cmd.html)
 - [centos 7 firewall(防火墙)开放端口/删除端口/查看端口](https://blog.csdn.net/qq_36663951/article/details/82115086)
 - [linux(centos 7)中配置安装apache服务器!怎么绑定域名](http://idc.wanyunshuju.com/li/6.html#%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E9%85%8D%E7%BD%AE)
+- [Laravel 项目部署到云服务器（CentOS 7 系统）](https://learnku.com/articles/20443#865626)
+- [CentOS7下部署laravel项目踩坑记录](https://blog.csdn.net/jinyaobo3875/article/details/79235832)
+- [基于CentOS 7.2 的Laravel 生成环境部署](https://segmentfault.com/a/1190000007469714)
+- [於CentOS7安裝 Nginx + php7 + php-fpm + Laravel5.6](https://medium.com/@iven00000000/%E6%96%BCcentos7%E5%AE%89%E8%A3%9D-nginx-php7-php-fpm-laravel5-6-df8631681acf)
+- [How To Install PHP 7.3, 7.2, 7.1 on CentOS/RHEL 7.6](https://tecadmin.net/install-php7-on-centos7/)
+- [如何在CentOS 7中yum安装PHP 7.3](https://zhuanlan.zhihu.com/p/63718766)
 
 ### 安装 Apache
 
